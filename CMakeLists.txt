@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.20)
+project(GAME_DEV)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+add_subdirectory(vendor/sfml)
+add_executable(bounce WIN32 main.cpp)
+target_link_libraries(bounce PUBLIC sfml-main sfml-graphics sfml-window sfml-audio sfml-system sfml-network)
