@@ -26,6 +26,10 @@ Open the folder (`File->Open Folder...`). You should be prompted to scan for kit
 ### Jetbrains CLion
 Open this repository. You will be asked to configure which build system and C/C++ toolchain to use. You will also need to setup a target to run. Don't use this option if you are unsure how to set this up.
 
+## Running
+
+When you run the application out of the box. There should be an empty 600 x 800 cyan window. Hit Escape to close it.
+
 ## External libraries
 
 External libraries are all under the `vendor` directory.
