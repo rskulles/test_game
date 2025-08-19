@@ -35,4 +35,4 @@ When you run the application out of the box. There should be an empty 600 x 800 
 External libraries are all under the `vendor` directory.
 
 * [SFML](https://github.com/SFML/SFML)
-  * Simple and Fast Multimedia Library. Cross platfom library for handling window  creation, graphics, audio, and networking.
+  * Simple and Fast Multimedia Library. Cross platfom library for handling window creation, graphics, audio, and networking.
