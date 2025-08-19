@@ -2,7 +2,7 @@
 
 This is simple test application that gives you everything you need to start developing 2D games.
 
-## Prerequisits
+## Prerequisites
 
 ### Windows
 
