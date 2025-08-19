@@ -28,7 +28,7 @@ Open this repository. You will be asked to configure which build system and C/C+
 
 ## Running
 
-When you run the application out of the box. There should be an empty 600 x 800 cyan window. Hit Escape to close it.
+When you run the application out of the box. There should be an empty 600 x 800 cyan window. Hit `Escape` to close it.
 
 ## External libraries
 
