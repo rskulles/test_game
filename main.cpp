@@ -2,20 +2,21 @@
 
 int main()
 {
-    // initialization
+
+#pragma region Initialization
 
     sf::RenderWindow window(sf::VideoMode(sf::Vector2u(800, 600)), "TEST GAME", sf::Style::None);
     sf::Clock clock;
     float delta_time = 0;
 
-    // end initialization
+#pragma endregion Initialization
 
+#pragma region GameLoop
     while (window.isOpen())
     {
         // gets the time between each frame
         delta_time = clock.reset().asSeconds();
-
-        // handle events
+#pragma region Events
         while (const auto e = window.pollEvent())
         {
             if (e->is<sf::Event::Closed>())
@@ -30,17 +31,17 @@ int main()
                 }
             }
         }
-        // end handle events
+#pragma endregion Events
 
-        // update logic
+#pragma region Update
+#pragma endregion Update
 
-        // end update logic
-
+#pragma region Render
         window.clear(sf::Color::Cyan);
-        // rendering code
 
-        // end rendering code
         window.display();
+#pragma endregion Render
     }
+#pragma endregion GameLoop
     return 0;
 }
